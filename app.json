@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "minimal-todo-app",
-    "slug": "minimal-todo-app",
+    "name": "Minimal",
+    "slug": "Mininaml",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,9 +15,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.jluis912.minimalrm",
+      "buildNumber": "1"
     },
     "android": {
+      "package": "com.jluis912.minimalrm",
+      "versionCode": "1",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f1fd5227-d4fe-4edb-b542-7e053a7afb89"
+      }
     }
   }
 }
